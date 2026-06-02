@@ -18,6 +18,15 @@
 - Both .txt files and .js files can be treated as source code.
 - Nodejs is a runtime environment for javascript.
 
+
+## Lecture03-Save and work on github 
+
+### What i learned?
+
+- How to set up an online JavaScript coding environment using GitHub Codespaces.
+- Codespaces are useful when you don’t have your own computer or setup ready.
+- Saving your work using commit & push.
+
 ### code editors:
 
 - Visual Studio code
@@ -25,4 +34,7 @@
 
 ## To run javascript file:
 ### Open terminal and type:
-- node fileName.js
+
+```bash
+node fileName.js
+```
