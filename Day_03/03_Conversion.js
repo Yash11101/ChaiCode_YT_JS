@@ -11,7 +11,7 @@ let score2="yash"
 let score2_in_num=Number(score2)
 console.log(typeof score2_in_num);
 console.log(score2_in_num);
-console.log(typeof score2_in_num);
+
 
 //string will convert into number but its value will be NaN
 //alphanumeric string will convert into number but its value will be NaN
@@ -41,7 +41,7 @@ console.log(boolean_loggedin);
 //string->true; empty string->false
 
 
-let some=false
+let some=null
 
 let string_some=String(some)
 
@@ -49,6 +49,6 @@ console.log(typeof string_some);
 console.log(string_some);
 
 //23->"23"
-//null->null datatype string
-//undefined->undefined datatype string
-//true->true ;fale->false datatype string
+//null->null datatype=string
+//undefined->undefined datatype=string
+//true->true ;fale->false datatype=string
