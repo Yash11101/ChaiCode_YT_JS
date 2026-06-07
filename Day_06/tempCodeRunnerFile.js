@@ -1,0 +1,3 @@
+sole.log(mytimestamp);
+
+// conso
