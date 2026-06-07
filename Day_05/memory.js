@@ -1,6 +1,6 @@
 //stack-primitive, heap-non-primitive
 
-/*in stack memory we are given copy of data,if we have a var1 and var2 if we assign value of
+/*in stack memory, we are given copy of data,if we have a var1 and var2 if we assign value of
 var1 to var2,var2 will be assigned by copy of data in var1.
 so var1 and var2 are independent of eachother.
 */

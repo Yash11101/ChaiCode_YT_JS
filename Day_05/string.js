@@ -11,7 +11,7 @@ let repoCount=21
 
 //another method to define string
 let i=new String("hello-yash")
-// console.log(i,typeof i);
+console.log(i,typeof i);
 
 // console.log(i[0]);
 // console.log(i.length);
@@ -32,11 +32,11 @@ const str1="  yash   "
 // console.log(str1.trimEnd());  //removes spaces from rear
 
 let str2="https://google.com/alpha%20romeo"
-console.log(str2.replace("%20","-"));
-console.log(str2.includes("alpha"));
+// console.log(str2.replace("%20","-"));
+// console.log(str2.includes("alpha"));
 
 
-console.log(i.split("-"));//breaks and converts into array based on seperator
+// console.log(i.split("-"));//breaks and converts into array based on seperator
 
 
 
