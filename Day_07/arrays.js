@@ -4,7 +4,7 @@
 
 //JS array copy-operations create shallow copy
 
-const myarr =[1,2,3,4,5]
+
 const myheros=["spiderman","batmaanji","hulku","flash"]
 
 const myarr2=new Array(1,2,"yash",true)
@@ -31,14 +31,21 @@ const myarr2=new Array(1,2,"yash",true)
 // console.log(newstr);
 // console.log(typeof str);
 // console.log(typeof newstr);
-
-// console.log(myarr.slice(0,3));//returns new array without changing original array
+// console.log(myarr.slice(1,3));//returns new array without changing original array
 // console.log(myarr);
+const myarr =[1,2,3,4,5]
+// console.log(myarr.indexOf(6));
 
-// console.log(myarr.splice(0,3));//starting from o index removes 3 elements,returns removed elements and changes are made in original array
-// console.log(myarr);
+console.log(myarr.splice(2,3));//starting from o index removes 3 elements,returns removed elements and changes are made in original array
+console.log(myarr);
 
 
 
 
+// const arr=[1,2,3]
+// // arr=[4,5]
+// // console.log(arr);
 
+
+// const a=arr.unshift(4)
+// console.log(a);
