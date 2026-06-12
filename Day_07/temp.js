@@ -58,3 +58,10 @@ console.log(myarr.join())
 console.log(myarr.join(""))
 console.log(myarr.join(" "))
 
+//10.flat() method-->spreads out subarray elements into single array
+const myarr=[1,2,[6,7],4,[5,[9,8],4]]
+console.log(myarr.flat(1))//flattened array upto  1 level
+console.log(myarr.flat(2))//flattened array upto  2 levels
+console.log(myarr.flat(-1))//gives original array for -ve arguments
+console.log(myarr.flat(Infinity))
+console.log(myarr);
