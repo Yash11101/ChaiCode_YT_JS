@@ -26,7 +26,7 @@ const x= myarr.shift()
 console.log(myarr);
 console.log(x);  //returns element being deleted
 
-//5.includes method-->returns boolean value,if argument is present in array or not.doesnt modify original array.
+//5.includes method-->returns boolean value,if argument is present in array or not.
 //USES:checking if a student is present or not (in attendance log)
 const myarr=[1,2,3,4,5]
 console.log(myarr.includes(4));
@@ -37,6 +37,7 @@ const myarr=[1,2,3,4,5]
 console.log(myarr.indexOf(7));
 
 //7.slice-->gives perticular part of array as specified in argument --> .slice(a,b) from index a to index b (b excluded)
+//doesnt modify original array.
 //USES:showing top 5 searches
 const myarr=[1,2,3,4,5]
 const x=myarr.slice(1,4)
@@ -51,4 +52,9 @@ const x=myarr.splice(2,3)
 console.log(x);
 console.log(myarr);
 
+//9.join() method-->converts array into string and seperates element with seperator given as argument.
+const myarr=[1,2,3,4,5]
+console.log(myarr.join())
+console.log(myarr.join(""))
+console.log(myarr.join(" "))
 
